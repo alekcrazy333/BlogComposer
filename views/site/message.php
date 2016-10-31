@@ -2,6 +2,10 @@
 
 use yii\widgets\ActiveForm;
 
+use yii\widgets\ActiveField;
+
+
+
 $form = ActiveForm::begin(); ?>
 
 <?= $form->field($model, 'name') ?>
@@ -13,4 +17,9 @@ $form = ActiveForm::begin(); ?>
 
 
 <?= \yii\helpers\Html::submitButton()?>
-<?php ActiveForm::end() ?>
+<?php ActiveForm::end();
+
+function abdcn(){
+
+}
+?>
