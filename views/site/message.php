@@ -1,8 +1,11 @@
 <?php
 
 use yii\widgets\ActiveForm;
+use yii\widgets\ActiveFormAsset;
+
 
 $form = ActiveForm::begin(); ?>
+
 
 <?= $form->field($model, 'name') ?>
 <?= $form->field($model, 'emailFrom')->textInput(['type' => 'email']) ?>
@@ -13,4 +16,10 @@ $form = ActiveForm::begin(); ?>
 
 
 <?= \yii\helpers\Html::submitButton()?>
-<?php ActiveForm::end() ?>
+<?php ActiveForm::end();
+function afcd(){
+
+}
+
+?>
+
