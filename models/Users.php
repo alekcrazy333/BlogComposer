@@ -21,4 +21,8 @@ class Users extends ActiveRecord
 //            ['password','password']
         ];
     }
+
+    function abdc(){
+
+    }
 }
